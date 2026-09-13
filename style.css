@@ -1,0 +1,72 @@
+ * {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: rgb(6, 6, 42);
+}
+ a{
+    text-decoration:none;
+    color: aliceblue;
+    
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    top: 0;
+    left:0;
+    width:100vw;
+    padding: 25px 9px;
+    background: fixed;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    z-index: 100px;
+}
+.navbar .logo{
+    font-size: 40px;
+    font-weight: 900px;
+    
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin-left: 35px;
+    font-size: 20px;
+}
+.navbar ul li a{
+    transition: .5s;
+}
+.navbar ul li a:hover{
+    color:green;
+}
+.navbar ul li.active a{
+    color: green;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding-left: 100px;
+    padding-bottom: 300px;
+    color: white;
+}
+.soc a img{
+    width:20px;
+}
+.home-info h1{
+    font-size: 48px;
+    padding-bottom: 5px;
+}
+.home-info h2{
+    font-size: 30px;
+    padding: 5px 0px 2px 0px;
+}
+.home-info p{
+    font-size:small;
+    padding-top: 10px;
+}
